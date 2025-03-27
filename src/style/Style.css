@@ -1,0 +1,130 @@
+/*
+*******Pesquisa por Componentes**********
+
+usar ctrl + r 
+
+1- barra de navegação
+2- componente "sobre nós"
+3
+
+
+
+
+
+*/
+
+
+*{
+    margin:0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Barra de navegação */
+
+.navbar-container{
+    display: flex;
+    height: 6vw;
+    width: 100%;
+
+}
+
+.navbar-container-button, .navbar-container-links, .navbar-container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container-logo{
+    flex: 22%;
+}
+
+.navbar-container-links{
+    flex: 60%;
+}
+
+.navbar-container-button{
+    flex: 18%;
+}
+
+.navbar-logo{
+    width: 4vw;
+    margin-right: -7vw;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+    margin-inline: 3vw;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.navbar-button{
+    font-weight: bold;
+    margin-left: -9vw;
+    font-size: 1.5vw;   
+    padding:  0.3vw;
+    padding-inline: 0.8vw;
+    border-radius: 80px;
+    border: 2px solid #397EFE;
+    background-color: #397EFE;
+    color: white;
+    cursor: pointer;
+    box-shadow:  0 0 5px #397EFE;
+    transition: 0.5s;
+}
+
+.navbar-button:hover{
+    background-color: #0212BA;
+}
+
+.navbar-links:hover{
+    color: #0212BA;
+    text-decoration: underline;
+}
+
+
+/* componente "Sobre Nós"  */
+
+.sobrenos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1vw;
+    height: 34vw;
+}
+
+.sobrenos-box{
+    display: flex;
+    height: 30vw;
+    background-color: #EEEEEE;
+    width: 60%;
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.549);
+}
+
+.sobrenos-texto{
+    flex: 50%;
+    padding: 3vw;
+}
+
+.sobrenos-foto{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobrenos-titulo{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #0212BA;
+}
+
+.sobrenos-descricao{
+    margin-top: 1vw;
+    font-size: 2vw;
+}

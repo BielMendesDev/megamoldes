@@ -1,13 +1,15 @@
+import Navbar from './components/Navbar.jsx'
+import Sobrenos from './components/Sobrenos.jsx'
 
-
-function App() {
+export default function App() {
   
 
   return (
    <div>
-    
+      <Navbar/>
+      <Sobrenos/>
    </div>
   )
 }
 
-export default App
+
