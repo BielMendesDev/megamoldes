@@ -5,8 +5,8 @@ usar ctrl + r
 
 1- barra de navegação
 2- componente "sobre nós"
-3
-
+3- componente "image"
+4- componente "produtos"
 
 
 
@@ -17,7 +17,6 @@ usar ctrl + r
 *{
     margin:0;
     box-sizing: border-box;
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -111,11 +110,15 @@ usar ctrl + r
     padding: 3vw;
 }
 
-.sobrenos-foto{
+.sobrenos-box-foto{
     flex: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sobrenos-foto{
+    width: 18vw;
 }
 
 .sobrenos-titulo{
@@ -128,3 +131,81 @@ usar ctrl + r
     margin-top: 1vw;
     font-size: 2vw;
 }
+
+/* componente image */
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0.9turn, #0212BA 20%, #FF8800 );
+    width: 100%;
+    padding: 4vw;
+}
+
+.image-promo{
+    width: 40vw;
+}
+
+/*componente produtos*/
+
+.produtos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    margin-top: 2vw;
+}
+
+.produto-titulo{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #0212BA;
+}
+
+.produtos-cardbox{
+    display: flex;
+    width: 100%;
+    padding: 4vw;
+    
+}
+
+.produto-card{
+    margin-inline: 2vw;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.549);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18vw;
+}
+
+.produto-foto{
+    width: 8.5vw;
+}
+
+.cards-titulo{
+    margin: 0.3vw;
+    font-size: 1.5vw;
+}
+
+.cards-description{
+    font-size: 0.8vw;
+    margin: 0.3vw;
+    text-align: center;
+}
+
+.cards-button {
+    background: none;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+    padding: 1vw;
+  }
+  
+  .cards-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }

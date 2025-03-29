@@ -1,4 +1,4 @@
-import coisaruim from '../assets/images.jpg'
+import coisaruim from '../assets/molde.jpg'
 
 
 
@@ -18,8 +18,8 @@ export default function Sobrenos(){
                         independentemente do processo de comunicação 
                         como um todo.</p>
                 </div>
-                <div className="sobrenos-foto">
-                    <img  width={"500vw"} height={"500vw"} src={coisaruim} alt="" />
+                <div className="sobrenos-box-foto">
+                    <img  className='sobrenos-foto' src={coisaruim} alt="" />
                 </div>
             </div>
         </div>

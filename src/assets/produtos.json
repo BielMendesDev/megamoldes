@@ -1,0 +1,44 @@
+[
+    {
+    "id":1,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Anel G.",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":2,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Anel P.",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":3,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Anel P. S.",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":4,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Capacete",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":5,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Batente 3T.",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":6,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Batente 4T",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    },
+    {
+    "id":7,
+    "imagem":"src/assets/images.jpg",
+    "nome": "Casinha",
+    "descricao": "Percebemos, cada vez mais, que o desafiador cenário globalizado deve passar por modificações"
+    }
+]
